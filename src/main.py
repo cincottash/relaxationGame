@@ -121,6 +121,10 @@ def gameLoop(canvas, background, canvasWidth, canvasHeight):
 		    #Enter will exit the test
 		    if event.type == pygame.KEYDOWN and event.key == pygame.K_RETURN:
 		        done = True
+		    elif event.type == pygame.QUIT:
+		    	pygame.quit()
+		    	exit(0)
+
 		    elif event.type == pygame.MOUSEBUTTONUP:
 
 		    	mousePos = pygame.mouse.get_pos()

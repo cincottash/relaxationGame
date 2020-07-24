@@ -35,13 +35,13 @@ def pygameSetup():
 def populateCanvas(canvas, canvasWidth, canvasHeight):
 	circleList = []
 
-	circle1 = pygame.draw.circle(canvas, (0, 0, 255), (canvasWidth//4, canvasHeight//4), canvasWidth//4)
+	circle1 = pygame.draw.circle(canvas, colors["BLUE"], (canvasWidth//4, canvasHeight//4), canvasWidth//4)
 
-	circle2 = pygame.draw.circle(canvas, (0, 0, 255), (3 * canvasWidth//4, canvasHeight//4), canvasWidth//4)
+	circle2 = pygame.draw.circle(canvas, colors["BLUE"], (3 * canvasWidth//4, canvasHeight//4), canvasWidth//4)
 
-	circle3 = pygame.draw.circle(canvas, (0, 0, 255), (canvasWidth//4, 3 * canvasHeight//4), canvasWidth//4)
+	circle3 = pygame.draw.circle(canvas, colors["BLUE"], (canvasWidth//4, 3 * canvasHeight//4), canvasWidth//4)
 
-	circle4 = pygame.draw.circle(canvas, (0, 0, 255), (3 * canvasWidth//4, 3 * canvasHeight//4), canvasWidth//4)
+	circle4 = pygame.draw.circle(canvas, colors["BLUE"], (3 * canvasWidth//4, 3 * canvasHeight//4), canvasWidth//4)
 
 	circleList.append(circle1)
 	circleList.append(circle2)
