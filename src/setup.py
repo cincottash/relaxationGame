@@ -15,7 +15,7 @@ def argParse():
 
 
 	except invalidArgCount:
-		print("\n Error, correct usage is: python3 main.py fileName threadCount")
+		print("\n Error, correct usage is: python3 main.py fileName")
 		exit(0)
 
 	return background
